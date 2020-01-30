@@ -1,7 +1,7 @@
 def square_array(array)
   index = 0
   
-  while index < array.length do 
+  while index < 3 do 
     newArray= []
     new_numbers = (array[index] ** 2)
     newArray.push(new_numbers)
